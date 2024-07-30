@@ -1,5 +1,5 @@
 # Libraries
-pip install ultralytics
+# pip install ultralytics
 
 
 # Streamlit is used for creating interactive web apps
