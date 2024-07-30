@@ -4,8 +4,7 @@
 import streamlit as st
 import streamlit.components.v1 as stc
 
-# YAML library is used for reading classes of inventory
-import yml
+# Reading inventory classes
 
 # # For data manipulation
 import pandas as pd
