@@ -1,8 +1,8 @@
 # Libraries
 
 # Streamlit is used for creating interactive web apps
-import streamlit as st
-import streamlit.components.v1 as stc
+# import streamlit as st
+# import streamlit.components.v1 as stc
 
 # YAML library is used for reading classes of inventory
 import yaml
