@@ -2,6 +2,8 @@
 
 This folder contains models and performances brought by training a YOLOv8 model.
 
+**Model Link:** https://github.com/vrsp11603/CPE313_CPE32S8_Group2_Final-Project_Recipe-Recommendation-System/blob/main/YOLOv8%20Model/best.pt
+
 ## Overview
 1. Introduction
 <p align="justify"> 
