@@ -6,7 +6,7 @@ This folder contains models and performances brought by training a YOLOv6 model.
 
 ## Overview
 1. Introduction
-<p align="justify"> YOLOv6 is an object detection model that offers remarkable balance between speed and accuracy, making it a popular choice for real-time applications. This model introduces several notable enhancements on its architecture and training scheme, including the implementation of a Bi-directional Concatenation (BiC) module, an anchor-aided training (AAT) strategy, and an improved backbone and neck design for state-of-the-art accuracy on the COCO dataset[^1]. It was trained under 142 layers of neural networks consisting 4,235,823 parameters.</p>
+<p align="justify"> YOLOv6 is an object detection model that offers remarkable balance between speed and accuracy, making it a popular choice for real-time applications. This model introduces several notable enhancements on its architecture and training scheme, including the implementation of a Bi-directional Concatenation (BiC) module, an anchor-aided training (AAT) strategy, and an improved backbone and neck design for state-of-the-art accuracy on the COCO dataset. It was trained under 142 layers of neural networks consisting 4,235,823 parameters.</p>
 
 2. Metrics Performance
 <table>
@@ -115,8 +115,4 @@ This folder contains models and performances brought by training a YOLOv6 model.
 </table>
 
 <br></br>
-
-## References
-
-[^1]:https://docs.ultralytics.com/models/yolov6/
 
