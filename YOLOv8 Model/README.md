@@ -47,7 +47,7 @@ This folder contains models and performances brought by training a YOLOv8 model.
 | `lr/pg2`                | 8.95E-06 |
    </td>
    <td>
-      **Analysis**
+      <b>Analysis</b>
       <p align = 'justify'>
          The metrics graph for YOLOv8 shows a consistent decrease in both training and validation losses, indicating effective learning. Precision and recall metrics steadily improve, approaching values near 0.8, demonstrating the model's increasing accuracy. The mAP metrics also stabilize at high values, reflecting strong performance in object detection and segmentation tasks which is a reasonable result but not good enough.
       </p>
