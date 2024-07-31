@@ -18,35 +18,97 @@ This folder contains models and performances brought by training a YOLOv6 model.
    
    <tr><td colspan = 10></td></tr>
    
-| Metric                  | Value    |
-|-------------------------|----------|
-| `train/box_loss`        | 0.24595  |
-| `train/seg_loss`        | 0.44298  |
-| `train/cls_loss`        | 0.32934  |
-| `train/dfl_loss`        | 0.95113  |
-| `metrics/precision(B)`  | 0.81254  |
-| `metrics/recall(B)`     | 0.78586  |
-| `metrics/mAP50(B)`      | 0.82626  |
-| `metrics/mAP50-95(B)`   | 0.75189  |
-| `metrics/precision(M)`  | 0.81637  |
-| `metrics/recall(M)`     | 0.75146  |
-| `metrics/mAP50(M)`      | 0.81135  |
-| `metrics/mAP50-95(M)`   | 0.7316   |
-| `val/box_loss`          | 0.48191  |
-| `val/seg_loss`          | 1.2007   |
-| `val/cls_loss`          | 0.84366  |
-| `val/dfl_loss`          | 1.132    |
-| `lr/pg0`                | 8.95e-06 |
-| `lr/pg1`                | 8.95e-06 |
-| `lr/pg2`                | 8.95e-06 |
-<tr><td colspan = 10></td></tr>
-      <tr>
-         <td colspan = 10>
-              <p align = 'justify'>
-        The graphs indicate that the object detection model shows significant improvement in performance over time. Both box and classification losses for training and validation steadily decrease, indicating enhanced accuracy in predicting bounding boxes and classifying objects. Precision and recall metrics stabilize above 0.8, reflecting high accuracy and the model's capability to identify true objects with low false positive and negative rates. The mean average precision (mAP) metrics, particularly mAP@50 and mAP@50-95, demonstrate strong and robust detection performance. 
-              </p>
-         </td>
-      </tr>
+  <tr>
+    <td>
+      <h3>Metrics</h3>
+      <table>
+        <tr>
+          <th>Metric</th>
+          <th>Value</th>
+        </tr>
+        <tr>
+          <td>`train/box_loss`</td>
+          <td>0.24595</td>
+        </tr>
+        <tr>
+          <td>`train/seg_loss`</td>
+          <td>0.44298</td>
+        </tr>
+        <tr>
+          <td>`train/cls_loss`</td>
+          <td>0.32934</td>
+        </tr>
+        <tr>
+          <td>`train/dfl_loss`</td>
+          <td>0.95113</td>
+        </tr>
+        <tr>
+          <td>`metrics/precision(B)`</td>
+          <td>0.81254</td>
+        </tr>
+        <tr>
+          <td>`metrics/recall(B)`</td>
+          <td>0.78586</td>
+        </tr>
+        <tr>
+          <td>`metrics/mAP50(B)`</td>
+          <td>0.82626</td>
+        </tr>
+        <tr>
+          <td>`metrics/mAP50-95(B)`</td>
+          <td>0.75189</td>
+        </tr>
+        <tr>
+          <td>`metrics/precision(M)`</td>
+          <td>0.81637</td>
+        </tr>
+        <tr>
+          <td>`metrics/recall(M)`</td>
+          <td>0.75146</td>
+        </tr>
+        <tr>
+          <td>`metrics/mAP50(M)`</td>
+          <td>0.81135</td>
+        </tr>
+        <tr>
+          <td>`metrics/mAP50-95(M)`</td>
+          <td>0.7316</td>
+        </tr>
+        <tr>
+          <td>`val/box_loss`</td>
+          <td>0.48191</td>
+        </tr>
+        <tr>
+          <td>`val/seg_loss`</td>
+          <td>1.2007</td>
+        </tr>
+        <tr>
+          <td>`val/cls_loss`</td>
+          <td>0.84366</td>
+        </tr>
+        <tr>
+          <td>`val/dfl_loss`</td>
+          <td>1.132</td>
+        </tr>
+        <tr>
+          <td>`lr/pg0`</td>
+          <td>8.95e-06</td>
+        </tr>
+        <tr>
+          <td>`lr/pg1`</td>
+          <td>8.95e-06</td>
+        </tr>
+        <tr>
+          <td>`lr/pg2`</td>
+          <td>8.95e-06</td>
+        </tr>
+      </table>
+    </td>
+    <td>
+      <h3>Analysis</h3>
+      <p align="justify">
+        The graphs indicate that the object detection model shows significant improvement in performance over time. Both box and classification losses for training and validation steadily decrease, indicating enhanced accuracy in predicting bounding boxes and classifications. The steady decrease in losses reflects improved model training and generalization, leading to better performance metrics across both training and validation datasets.
+      </p>
 </table>
 
 <br></br>
