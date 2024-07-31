@@ -10,7 +10,7 @@ For object detection, dataset are composed of images of raw ingredients of a com
 - **Classes:**
 <table border="1">
   <tr>
-    <th>*Label**</th>
+    <th>**Label**</th>
     <th>**Class**</th>
   </tr>
   <tr>
