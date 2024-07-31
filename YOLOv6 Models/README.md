@@ -80,7 +80,7 @@ This folder contains models and performances brought by training a YOLOv6 model.
    </tr>
 </table>
 
-
+<br></br>
 
 <table>
    <tr>
