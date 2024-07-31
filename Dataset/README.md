@@ -111,6 +111,14 @@ Due to the size limitation of Github, you can access the dataset in this link:  
   - Brightness
   - Exposure
 
-## Recipe Recommendation
+## Recipe Recommendation Dataset
+The dataset used for the recipe recommendation system is outsourced from GitHub by Shaan Subbaiah [^1] on project, allrecipes-scraper. The outsourced dataset from this project comes from scraping allrecipes.com, a food-focused online social networking service.
+
+### Recipe Recommendation Dataset Details
+- **Features**
+-   a
+
+# References
+[^1]: Shaansubbaiah, “Shaansubbaiah/allrecipes-scraper: 🥗 scrapy spider to scrape recipe and nutritional data from allrecipes.com,” GitHub, https://github.com/shaansubbaiah/allrecipes-scraper/tree/main
 
 
