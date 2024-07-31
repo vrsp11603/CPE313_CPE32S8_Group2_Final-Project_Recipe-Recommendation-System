@@ -115,6 +115,7 @@ This folder contains models and performances brought by training a YOLOv6 model.
    
 </table>
 
+<br></br>
 
 4. Testing Result
 <table>
