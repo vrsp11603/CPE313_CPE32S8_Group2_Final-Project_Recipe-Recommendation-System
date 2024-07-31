@@ -77,8 +77,8 @@ This folder contains models and performances brought by training a YOLOv8 model.
    </tr>
    <tr>
       <td colspan = "2">
+         <b>Analysis</b>
          <p align = 'justify'>
-            <b>Analysis</b>
             The confusion matrix for YOLOv8 shows varied performance across different categories. Bitter-gourd, Cabbage, Cauliflower, Eggplant, and Sayote achieve perfect classification accuracy. However, some categories like Bottle-Gourd and Carrots have lower accuracies of 70%. Notable misclassifications include Beef being confused with Pork and Milkfish, and Chicken with Cauliflower. Background images also show significant confusion with various categories such as Tomato and Tilapia. 
          </p>
       </td>
