@@ -46,9 +46,9 @@ This folder contains models and performances brought by training a YOLOv6 model.
    <td>
 
 ### Analysis
-
+<p align = 'justify'>
 The metrics graph for YOLOv8 shows a consistent decrease in both training and validation losses, indicating effective learning. Precision and recall metrics steadily improve, approaching values near 0.8, demonstrating the model's increasing accuracy. The mAP metrics also stabilize at high values, reflecting strong performance in object detection and segmentation tasks which is a reasonable result but not good enough.
-
+</p>
    </td>
   </tr>
 </table>
@@ -64,12 +64,12 @@ The metrics graph for YOLOv8 shows a consistent decrease in both training and va
 
    <tr>
       <td>
-         <img src = "https://github.com/vrsp11603/CPE313_CPE32S8_Group2_Final-Project_Recipe-Recommendation-System/blob/main/YOLOv8%20Models/confusion_matrix.png">
+         <img src = "https://github.com/vrsp11603/CPE313_CPE32S8_Group2_Final-Project_Recipe-Recommendation-System/blob/main/YOLOv8%20Model/confusion_matrix.png">
          <p align="center"> Figure 2: YOLOv8 Confusion Matrix </p>
    </td>
       
    <td>
-         <img src = "https://github.com/vrsp11603/CPE313_CPE32S8_Group2_Final-Project_Recipe-Recommendation-System/blob/main/YOLOv8%20Models/confusion_matrix_normalized.png">
+         <img src = "https://github.com/vrsp11603/CPE313_CPE32S8_Group2_Final-Project_Recipe-Recommendation-System/blob/main/YOLOv8%20Model/confusion_matrix_normalized.png">
          <p align="center"> Figure 3: YOLOv8 Normalized Confusion Matrix </p>
    </td>
    </tr>
@@ -93,24 +93,24 @@ The metrics graph for YOLOv8 shows a consistent decrease in both training and va
 
    <tr>
       <td>
-         <img src = "https://github.com/vrsp11603/CPE313_CPE32S8_Group2_Final-Project_Recipe-Recommendation-System/blob/main/YOLOv8%20Models/BoxP_curve.png">
+         <img src = "https://github.com/vrsp11603/CPE313_CPE32S8_Group2_Final-Project_Recipe-Recommendation-System/blob/main/YOLOv8%20Model/BoxP_curve.png">
          <p align="center"> Figure 4: Precision Curve </p>
    </td>
       
    <td>
-         <img src = "https://github.com/vrsp11603/CPE313_CPE32S8_Group2_Final-Project_Recipe-Recommendation-System/blob/main/YOLOv8%20Models/BoxR_curve.png">
+         <img src = "https://github.com/vrsp11603/CPE313_CPE32S8_Group2_Final-Project_Recipe-Recommendation-System/blob/main/YOLOv8%20Model/BoxR_curve.png">
          <p align="center"> Figure 5: Recall Curve </p>
    </td>
    </tr>
 
    <tr>
       <td>
-         <img src = "https://github.com/vrsp11603/CPE313_CPE32S8_Group2_Final-Project_Recipe-Recommendation-System/blob/main/YOLOv8%20Models/BoxPR_curve.png">
+         <img src = "https://github.com/vrsp11603/CPE313_CPE32S8_Group2_Final-Project_Recipe-Recommendation-System/blob/main/YOLOv8%20Model/BoxPR_curve.png">
          <p align="center"> Figure 6: Precision-Recall Curve </p>
    </td>
       
    <td>
-         <img src = "https://github.com/vrsp11603/CPE313_CPE32S8_Group2_Final-Project_Recipe-Recommendation-System/blob/main/YOLOv8%20Models/BoxF1_curve.png">
+         <img src = "https://github.com/vrsp11603/CPE313_CPE32S8_Group2_Final-Project_Recipe-Recommendation-System/blob/main/YOLOv8%20Model/BoxF1_curve.png">
          <p align="center"> Figure 7: F1 Curve </p>
    </td>
    </tr>
