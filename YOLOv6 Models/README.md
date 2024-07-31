@@ -15,8 +15,8 @@ This folder contains models and performances brought by training a YOLOv6 model.
       </td>
    </tr>
 
+
    <tr>
-      <tr>
          <th>Train Box Loss</th>
          <th>Train Class Loss</th>
          <th>Train DFL Loss</th>
@@ -27,9 +27,9 @@ This folder contains models and performances brought by training a YOLOv6 model.
          <th>Validation Box Loss</th>
          <th>Validation Class Loss</th>
          <th>Validation DFL Loss</th>
-      </tr>
+   </tr>
       <tr></tr>
-      <tr>
+   <tr>
                 <td>0.36346</td>
                 <td>0.59692</td>
                 <td>1.0571</td>
@@ -41,7 +41,6 @@ This folder contains models and performances brought by training a YOLOv6 model.
                 <td>0.84549</td>
                 <td>1.2003</td>
       </tr>
-   </tr>
 </table>
 
 <div class="row">
