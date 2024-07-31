@@ -1,10 +1,12 @@
 # YOLOv8 Models
 
-This folder contains models and performances brought by training a YOLOv6 model.
+This folder contains models and performances brought by training a YOLOv8 model.
 
 ## Overview
 1. Introduction
-<p align="justify"> YOLOv8 is built on cutting-edge advancements in deep learning and computer vision, offering unparalleled performance in terms of speed and accuracy. Its streamlined design makes it suitable for various applications and easily adaptable to different hardware platforms, from edge devices to cloud APIs. Under this model, the dataset was trained under 261 layers of neural networks consisting 11,798,223 parameters.</p>
+<p align="justify"> 
+   YOLOv8 is built on cutting-edge advancements in deep learning and computer vision, offering unparalleled performance in terms of speed and accuracy. Its streamlined design makes it suitable for various applications and easily adaptable to different hardware platforms, from edge devices to cloud APIs. Under this model, the dataset was trained under 261 layers of neural networks consisting 11,798,223 parameters.
+</p>
 
 2. Metrics Performance
 <table>
@@ -19,7 +21,6 @@ This folder contains models and performances brought by training a YOLOv6 model.
    
   <tr>
     <td>
-
 | Metric                  | Value    |
 |-------------------------|----------|
 | `train/box_loss`        | 0.24595  |
@@ -41,14 +42,12 @@ This folder contains models and performances brought by training a YOLOv6 model.
 | `lr/pg0`                | 8.95E-06 |
 | `lr/pg1`                | 8.95E-06 |
 | `lr/pg2`                | 8.95E-06 |
-
    </td>
    <td>
-
-### Analysis
-<p align = 'justify'>
-The metrics graph for YOLOv8 shows a consistent decrease in both training and validation losses, indicating effective learning. Precision and recall metrics steadily improve, approaching values near 0.8, demonstrating the model's increasing accuracy. The mAP metrics also stabilize at high values, reflecting strong performance in object detection and segmentation tasks which is a reasonable result but not good enough.
-</p>
+      ### Analysis
+      <p align = 'justify'>
+         The metrics graph for YOLOv8 shows a consistent decrease in both training and validation losses, indicating effective learning. Precision and recall metrics steadily improve, approaching values near 0.8, demonstrating the model's increasing accuracy. The mAP metrics also stabilize at high values, reflecting strong performance in object detection and segmentation tasks which is a reasonable result but not good enough.
+      </p>
    </td>
   </tr>
 </table>
