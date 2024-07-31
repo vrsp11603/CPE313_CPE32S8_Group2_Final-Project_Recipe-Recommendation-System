@@ -157,7 +157,7 @@ The dataset used for the recipe recommendation system is outsourced from GitHub 
   - Modification of quantities based on user desired serving size
   - Extraction of crucial information from ingredients column to the another column which allows easier retrieval of core data for the recommendation system.
 
-# References
+## References
 [^1]: Shaansubbaiah, “Shaansubbaiah/allrecipes-scraper: 🥗 scrapy spider to scrape recipe and nutritional data from allrecipes.com,” GitHub, https://github.com/shaansubbaiah/allrecipes-scraper/tree/main
 
 
