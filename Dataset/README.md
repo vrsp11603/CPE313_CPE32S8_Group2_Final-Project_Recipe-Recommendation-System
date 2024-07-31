@@ -1,4 +1,4 @@
-# Datasets
+![image](https://github.com/user-attachments/assets/7d56345a-d8af-4249-a74e-6744897f37f1)# Datasets
 
 ## Overview
 This folder contains the details on the datasets used for training object detection model and recipe recommendation. 
@@ -116,7 +116,42 @@ The dataset used for the recipe recommendation system is outsourced from GitHub 
 
 ### Recipe Recommendation Dataset Details
 - **Features**
--   a
+  - **name:**
+  - **url:**
+  - **category:**
+  - **author:**
+  - **summary:**
+  - **rating:**
+  - **rating_count:**
+  - **review_count:**
+  - **ingredients:**
+  - **directions:**
+  - **prep:**
+  - **cook:**
+  - **total:**
+  - **servings:**
+  - **yield:**
+  - **calories:**
+  - **carbohydrates_g:**
+  - **sugars_g:**
+  - **fat_g:**
+  - **saturated_fat_g:**
+  - **cholesterol_mg:**
+  - **protein_g:**
+  - **dietary_fiber_g:**
+  - **sodium_mg:**
+  - **calories_from_fat:**
+  - **calcium_mg:**
+  - **iron_mg:**
+  - **magnesium_mg:**
+  - **potassium_mg:**
+  - **zinc_mg:**
+  - **phosphorus_mg:**
+  - **vitamin_a_iu_IU:**
+  - **niacin_equivalents_mg:**
+  - **vitamin_b:**
+
+
 
 # References
 [^1]: Shaansubbaiah, “Shaansubbaiah/allrecipes-scraper: 🥗 scrapy spider to scrape recipe and nutritional data from allrecipes.com,” GitHub, https://github.com/shaansubbaiah/allrecipes-scraper/tree/main
