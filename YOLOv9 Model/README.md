@@ -2,12 +2,12 @@
 
 This folder contains models and performances brought by training a YOLOv9 model.
 
-**Model Link:** https://github.com/vrsp11603/CPE313_CPE32S8_Group2_Final-Project_Recipe-Recommendation-System/blob/main/YOLOv9%20Model/best.pt
+**Model Link:** https://drive.google.com/file/d/1UW--VDQkGRcNoGI5QVwGuhQcMYTPY9IJ/view?usp=sharing
 
 ## Overview
 1. Introduction
 <p align="justify"> 
-   YOLOv9 is built on cutting-edge advancements in deep learning and computer vision, offering unparalleled performance in terms of speed and accuracy. Its streamlined design makes it suitable for various applications and easily adaptable to different hardware platforms, from edge devices to cloud APIs. Under this model, the dataset was trained under 261 layers of neural networks consisting 11,798,223 parameters.
+   YOLOv9 builds on its predecessors by incorporating improved backbone networks, spatial pyramid pooling, and attention mechanisms for better feature extraction and multi-scale object detection. It uses anchor-free detection and sophisticated loss functions like CIoU for improved accuracy and localization. YOLOv9 maintains the YOLO family’s philosophy of high-speed, real-time object detection with enhanced precision and efficiency. Under this model, the dataset was trained under 618 layers of neural networks consisting 25,548,507 parameters.
 </p>
 
 2. Metrics Performance
