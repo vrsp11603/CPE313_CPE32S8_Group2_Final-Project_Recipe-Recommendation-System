@@ -18,11 +18,12 @@ According to the World Wildlife Fund–Philippines (2020), it is estimated that 
 - Web Development Frameworks (Streamlit)
 
 ## Table of Contents
-- **Dataset:**
-- **YOLOv6 Model:**
-- **YOLOv8 Model:**
-- **YOLOv9 Model:**
-- **Recipe Recommendation:**
+- **Dataset:** This folder contains the dataset used for object detection and recipe recommendation system.
+- **YOLOv6 Model:** This folder contains the best YOLOv6 model produced through training as well as the metrics and samples.
+- **YOLOv8 Model:** This folder contains the best YOLOv8 model produced through training as well as the metrics and samples.
+- **YOLOv9 Model:** This folder contains the best YOLOv9 model produced through training as well as the metrics and samples.
+- **Recipe Recommendation:** This folder contains the python files for deploying recipe recommendation web application.
+- **Outputs:** This folder contains the documentation for this final projects such as the research paper.
 
 ## Contributors
 - Figueroa, Jan Ed Paulo A. | [qjepafigueroa@tip.edu.ph](qjepafigueroa@tip.edu.ph)
