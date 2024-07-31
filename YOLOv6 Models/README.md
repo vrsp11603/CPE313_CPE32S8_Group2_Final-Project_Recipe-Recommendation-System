@@ -76,7 +76,16 @@ This folder contains models and performances brought by training a YOLOv6 model.
          <p align="center"> Figure 3: YOLOv6 Normalized Confusion Matrix </p>
    </td>
    </tr>
+   <tr>
+      <td>
+         <p align = 'justify'>
+   The confusion matrix indicates perfect accuracy in detecting bitter gourd and eggplant, and high accuracy for cabbage and cauliflower. However, there are significant misclassifications for chicken, garlic, and especially ginger. Misclassifications frequently occur between similar-looking ingredients, such as pork with beef and papaya, and ginger with garlic.
+         </p>
+      </td>
+   </tr>
 </table>
+
+
 
 <table>
    <tr>
@@ -164,7 +173,6 @@ This folder contains models and performances brought by training a YOLOv6 model.
          <p align="center"> Figure 13: Validation Batch 3 Predicted Labels </p>
       </td>
    </tr>
-   
 </table>
 
 ## References
