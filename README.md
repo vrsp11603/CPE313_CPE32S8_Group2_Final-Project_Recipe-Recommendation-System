@@ -18,6 +18,11 @@ According to the World Wildlife Fund–Philippines (2020), it is estimated that 
 - Web Development Frameworks (Streamlit)
 
 ## Table of Contents
+- **Dataset:**
+- **YOLOv6 Model:**
+- **YOLOv8 Model:**
+- **YOLOv9 Model:**
+- **Recipe Recommendation:**
 
 ## Contributors
 - Figueroa, Jan Ed Paulo A. | [qjepafigueroa@tip.edu.ph](qjepafigueroa@tip.edu.ph)
