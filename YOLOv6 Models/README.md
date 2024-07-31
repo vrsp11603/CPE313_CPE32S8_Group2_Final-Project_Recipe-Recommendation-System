@@ -126,4 +126,4 @@ This folder contains models and performances brought by training a YOLOv6 model.
    
 </table>
 ## References
-{^1]: https://docs.ultralytics.com/models/yolov6/
+[^1]: https://docs.ultralytics.com/models/yolov6/
