@@ -116,41 +116,42 @@ The dataset used for the recipe recommendation system is outsourced from GitHub 
 
 ### Recipe Recommendation Dataset Details
 - **Features**
-  - **name:**
-  - **url:**
-  - **category:**
-  - **author:**
-  - **summary:**
-  - **rating:**
-  - **rating_count:**
-  - **review_count:**
-  - **ingredients:**
-  - **directions:**
-  - **prep:**
-  - **cook:**
-  - **total:**
-  - **servings:**
-  - **yield:**
-  - **calories:**
-  - **carbohydrates_g:**
-  - **sugars_g:**
-  - **fat_g:**
-  - **saturated_fat_g:**
-  - **cholesterol_mg:**
-  - **protein_g:**
-  - **dietary_fiber_g:**
-  - **sodium_mg:**
-  - **calories_from_fat:**
-  - **calcium_mg:**
-  - **iron_mg:**
-  - **magnesium_mg:**
-  - **potassium_mg:**
-  - **zinc_mg:**
-  - **phosphorus_mg:**
-  - **vitamin_a_iu_IU:**
-  - **niacin_equivalents_mg:**
-  - **vitamin_b:**
+  - **name:** Recipe Name
+  - **url:** The web address where the recipe can be originally found
+  - **category:** The category of the recipe
+  - **author:** The person who created the recipe.
+  - **summary:** A brief overview of the recipe or item.
+  - **rating:** The average rating given by users or reviewers.
+  - **rating_count:** The number of ratings the recipe or item has received.
+  - **review_count:** The number of reviews or comments submitted by users.
+  - **ingredients:** The list of ingredients required for the recipe.
+  - **directions:** The step-by-step instructions for preparing the recipe.
+  - **prep:** The time required to prepare the ingredients before cooking.
+  - **cook:** The time required to cook the recipe.
+  - **total:** The total time required for the entire recipe, including preparation and cooking.
+  - **servings:** The number of servings the recipe yields.
+  - **yield:** The output produced by the recipe.
+  - **calories:** The number of calories in the entire yield.
+  - **carbohydrates_g:** The total amount of carbohydrates in the entire yield, measured in grams.
+  - **sugars_g:** The total amount of sugars in the entire yield, measured in grams.
+  - **fat_g:** The total amount of fat in the entire yield, measured in grams.
+  - **saturated_fat_g:** The amount of saturated fat in the entire yield, measured in grams.
+  - **cholesterol_mg:** The amount of cholesterol in the entire yield, measured in milligrams.
+  - **protein_g:** The total amount of protein in the entire yield, measured in grams.
+  - **dietary_fiber_g:** The amount of dietary fiber in the entire yield, measured in grams.
+  - **sodium_mg:** The amount of sodium in the entire yield, measured in milligrams.
+  - **calories_from_fat:** The number of calories from fat in the entire yield.
+  - **calcium_mg:** The amount of calcium in the entire yield, measured in milligrams.
+  - **iron_mg:** The amount of iron in the entire yield, measured in milligrams.
+  - **magnesium_mg:** The amount of magnesium in the entire yield, measured in milligrams.
+  - **potassium_mg:** The amount of potassium in the entire yield, measured in milligrams.
+  - **zinc_mg:** The amount of zinc in the entire yield, measured in milligrams.
+  - **phosphorus_mg:** The amount of phosphorus in the entire yield, measured in milligrams.
+  - **vitamin_a_iu_IU:** The amount of vitamin A in the entire yield, measured in International Units (IU).
+  - **niacin_equivalents_mg:** The amount of niacin equivalents in the entire yield, measured in milligrams.
+  - **vitamin_b:** The types and amounts of vitamin B in the entire yield.
 
+- **Dataset Preprocessing**
 
 
 # References
