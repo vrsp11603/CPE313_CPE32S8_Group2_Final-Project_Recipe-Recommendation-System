@@ -56,7 +56,7 @@ This folder contains models and performances brought by training a YOLOv6 model.
   </div>
 </div>
 
-
+<br></br>
 
 <table>
    <tr>
