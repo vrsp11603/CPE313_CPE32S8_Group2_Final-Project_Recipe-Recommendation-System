@@ -9,8 +9,10 @@ This folder contains models and performances brought by training a YOLOv6 model.
 2. Metrics Performance
 <table>
    <tr>
-      <img src = "https://github.com/vrsp11603/CPE313_CPE32S8_Group2_Final-Project_Recipe-Recommendation-System/blob/main/YOLOv6%20Models/results.png">
-      <p align="center"> Figure 1: YOLOv6 Results </p>
+      <td>
+         <img src = "https://github.com/vrsp11603/CPE313_CPE32S8_Group2_Final-Project_Recipe-Recommendation-System/blob/main/YOLOv6%20Models/results.png">
+         <p align="center"> Figure 1: YOLOv6 Results </p>
+      </td>
    </tr>
 </table>
 
