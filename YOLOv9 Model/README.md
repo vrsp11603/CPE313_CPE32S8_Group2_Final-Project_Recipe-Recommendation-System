@@ -26,31 +26,25 @@ This folder contains models and performances brought by training a YOLOv9 model.
        
 | Metric                  | Value    |
 |-------------------------|----------|
-| `train/box_loss`        | 0.24595  |
-| `train/seg_loss`        | 0.44298  |
-| `train/cls_loss`        | 0.32934  |
-| `train/dfl_loss`        | 0.95113  |
-| `metrics/precision(B)`  | 0.81254  |
-| `metrics/recall(B)`     | 0.78586  |
-| `metrics/mAP50(B)`      | 0.82626  |
-| `metrics/mAP50-95(B)`   | 0.75189  |
-| `metrics/precision(M)`  | 0.81637  |
-| `metrics/recall(M)`     | 0.75146  |
-| `metrics/mAP50(M)`      | 0.81135  |
-| `metrics/mAP50-95(M)`   | 0.7316   |
-| `val/box_loss`          | 0.48191  |
-| `val/seg_loss`          | 1.2007   |
-| `val/cls_loss`          | 0.84366  |
-| `val/dfl_loss`          | 1.132    |
-| `lr/pg0`                | 8.95E-06 |
-| `lr/pg1`                | 8.95E-06 |
-| `lr/pg2`                | 8.95E-06 |
+| `train/box_loss`        | 0.38486  |
+| `train/cls_loss`        | 0.21674  |
+| `train/dfl_loss`        | 1.0511   |
+| `metrics/precision(B)`  | 0.91963  |
+| `metrics/recall(B)`     | 0.91533  |
+| `metrics/mAP50(B)`      | 0.95399  |
+| `metrics/mAP50-95(B)`   | 0.77917  |
+| `val/box_loss`          | 0.73456  |
+| `val/cls_loss`          | 0.42685  |
+| `val/dfl_loss`          | 1.2933   |
+| `lr/pg0`                | 1.48E-05 |
+| `lr/pg1`                | 1.48E-05 |
+| `lr/pg2`                | 1.48E-05 |
    </td>
    <td>
       
 ### Analysis
    <p align = 'justify'>
-   The metrics graph for YOLOv9 shows a consistent decrease in both training and validation losses, indicating effective learning. Precision and recall metrics steadily improve, approaching values near 0.8, demonstrating the model's increasing accuracy. The mAP metrics also stabilize at high values, reflecting strong performance in object detection and segmentation tasks which is a reasonable result but not good enough.
+   The YOLOv9 metrics show significant improvements in model performance, with loss values consistently decreasing and stabilizing. Training and validation box losses fall below 0.5, and classification losses settle around 0.5 for training and 0.75 for validation. Precision and recall exceed 0.9, indicating high accuracy. Mean average precision (mAP) metrics stabilize around 0.95 (mAP@50) and 0.78 (mAP@50-95), reflecting robust performance. Overall, YOLOv9 achieves high accuracy and precision in ingredient detection.
    </p>
    </td>
   </tr>
@@ -81,7 +75,7 @@ This folder contains models and performances brought by training a YOLOv9 model.
 
 ### Analysis
    <p align = 'justify'>
-   The confusion matrix for YOLOv9 shows varied performance across different categories. Bitter-gourd, Cabbage, Cauliflower, Eggplant, and Sayote achieve perfect classification accuracy. However, some categories like Bottle-Gourd and Carrots have lower accuracies of 70%. Notable misclassifications include Beef being confused with Pork and Milkfish, and Chicken with Cauliflower. Background images also show significant confusion with various categories such as Tomato and Tilapia. 
+   This figure shows the confusion matrix for YOLOv9 shows high accuracy for most categories, with many items having near-perfect precision and recall. Beef, BitterGourd, Pumpkin, and Sayote achieve 100% correct classifications. Other items like Chicken, Broccoli, and Cabbage also exhibit high accuracy, although there are some misclassifications, such as Carrots being confused with Broccoli and Galunggong with Milkfish. Overall, YOLOv9 performs robustly across various categories, maintaining high precision and recall
    </p>
    
    </td>
@@ -99,24 +93,24 @@ This folder contains models and performances brought by training a YOLOv9 model.
 
    <tr>
       <td>
-         <img src = "https://github.com/vrsp11603/CPE313_CPE32S8_Group2_Final-Project_Recipe-Recommendation-System/blob/main/YOLOv9%20Model/BoxP_curve.png">
+         <img src = "https://github.com/vrsp11603/CPE313_CPE32S8_Group2_Final-Project_Recipe-Recommendation-System/blob/main/YOLOv9%20Model/P_curve.png">
          <p align="center"> Figure 4: Precision Curve </p>
    </td>
       
    <td>
-         <img src = "https://github.com/vrsp11603/CPE313_CPE32S8_Group2_Final-Project_Recipe-Recommendation-System/blob/main/YOLOv9%20Model/BoxR_curve.png">
+         <img src = "https://github.com/vrsp11603/CPE313_CPE32S8_Group2_Final-Project_Recipe-Recommendation-System/blob/main/YOLOv9%20Model/R_curve.png">
          <p align="center"> Figure 5: Recall Curve </p>
    </td>
    </tr>
 
    <tr>
       <td>
-         <img src = "https://github.com/vrsp11603/CPE313_CPE32S8_Group2_Final-Project_Recipe-Recommendation-System/blob/main/YOLOv9%20Model/BoxPR_curve.png">
+         <img src = "https://github.com/vrsp11603/CPE313_CPE32S8_Group2_Final-Project_Recipe-Recommendation-System/blob/main/YOLOv9%20Model/PR_curve.png">
          <p align="center"> Figure 6: Precision-Recall Curve </p>
    </td>
       
    <td>
-         <img src = "https://github.com/vrsp11603/CPE313_CPE32S8_Group2_Final-Project_Recipe-Recommendation-System/blob/main/YOLOv9%20Model/BoxF1_curve.png">
+         <img src = "https://github.com/vrsp11603/CPE313_CPE32S8_Group2_Final-Project_Recipe-Recommendation-System/blob/main/YOLOv9%20Model/F1_curve.png">
          <p align="center"> Figure 7: F1 Curve </p>
    </td>
    </tr>
