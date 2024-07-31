@@ -72,6 +72,58 @@ This folder contains models and performances brought by training a YOLOv6 model.
 
 
 4. Testing Result
+<table>
+   <tr>
+      <th colspan = "2">
+         Validation Prediction
+      </th>
+   </tr>
 
+   <tr>
+      <th>
+         True Labels
+      </th>
+      <th>
+         Predicted Labels
+      </th>
+   </tr>
+
+   <tr>
+      <td>
+         <img src = "https://github.com/vrsp11603/CPE313_CPE32S8_Group2_Final-Project_Recipe-Recommendation-System/blob/main/YOLOv6%20Models/val_batch0_labels.png">
+         <p align="center"> Figure 8: Validation Batch 1 True Labels </p>
+      </td>
+      
+   <td>
+         <img src = "https://github.com/vrsp11603/CPE313_CPE32S8_Group2_Final-Project_Recipe-Recommendation-System/blob/main/YOLOv6%20Models/val_batch0_pred.png">
+         <p align="center"> Figure 9: Validation Batch 1 Predicted Labels </p>
+      </td>
+   </tr>
+
+   <tr>
+      <td>
+         <img src = "https://github.com/vrsp11603/CPE313_CPE32S8_Group2_Final-Project_Recipe-Recommendation-System/blob/main/YOLOv6%20Models/val_batch1_labels.png">
+         <p align="center"> Figure 10: Validation Batch 2 True Labels </p>
+      </td>
+      
+   <td>
+         <img src = "https://github.com/vrsp11603/CPE313_CPE32S8_Group2_Final-Project_Recipe-Recommendation-System/blob/main/YOLOv6%20Models/val_batch1_pred.png">
+         <p align="center"> Figure 11: Validation Batch 2 Predicted Labels </p>
+      </td>
+   </tr>
+
+   <tr>
+      <td>
+         <img src = "https://github.com/vrsp11603/CPE313_CPE32S8_Group2_Final-Project_Recipe-Recommendation-System/blob/main/YOLOv6%20Models/val_batch2_labels.png">
+         <p align="center"> Figure 12: Validation Batch 3 True Labels </p>
+      </td>
+      
+   <td>
+         <img src = "https://github.com/vrsp11603/CPE313_CPE32S8_Group2_Final-Project_Recipe-Recommendation-System/blob/main/YOLOv6%20Models/val_batch2_pred.png">
+         <p align="center"> Figure 13: Validation Batch 3 Predicted Labels </p>
+      </td>
+   </tr>
+   
+</table>
 ## References
 {^1]: https://docs.ultralytics.com/models/yolov6/
