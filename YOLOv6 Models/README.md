@@ -9,7 +9,7 @@ This folder contains models and performances brought by training a YOLOv6 model.
 2. Metrics Performance
 <table>
    <tr>
-      <td>
+      <td colspan = 10>
          <img src = "https://github.com/vrsp11603/CPE313_CPE32S8_Group2_Final-Project_Recipe-Recommendation-System/blob/main/YOLOv6%20Models/results.png">
          <p align="center"> Figure 1: YOLOv6 Results </p>
       </td>
@@ -28,6 +28,7 @@ This folder contains models and performances brought by training a YOLOv6 model.
          <th>Validation Class Loss</th>
          <th>Validation DFL Loss</th>
       </tr>
+      <tr></tr>
       <tr>
                 <td>0.36346</td>
                 <td>0.59692</td>
@@ -39,7 +40,7 @@ This folder contains models and performances brought by training a YOLOv6 model.
                 <td>0.54164</td>
                 <td>0.84549</td>
                 <td>1.2003</td>
-            </tr>
+      </tr>
    </tr>
 </table>
 
