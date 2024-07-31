@@ -25,7 +25,7 @@ This folder contains models and performances brought by training a YOLOv6 model.
 
    <tr>
       <td>
-         ![alt text](https://github.com/vrsp11603/CPE313_CPE32S8_Group2_Final-Project_Recipe-Recommendation-System/blob/main/YOLOv6%20Models/confusion_matrix.png "YOLOv6 Confusion Matrix")
+         <img src = "https://github.com/vrsp11603/CPE313_CPE32S8_Group2_Final-Project_Recipe-Recommendation-System/blob/main/YOLOv6%20Models/confusion_matrix.png">
          <p align="center"> Figure 2: YOLOv6 Confusion Matrix </p>
    </td>
       
