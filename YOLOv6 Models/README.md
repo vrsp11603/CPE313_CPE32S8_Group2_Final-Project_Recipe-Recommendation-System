@@ -18,9 +18,9 @@ This folder contains models and performances brought by training a YOLOv6 model.
 
 <table>
    <tr>
-      <td colspan = "2">
+      <th colspan = "2">
          **Confusion Matrix**
-      </td>
+      </th>
    </tr>
 
    <tr>
