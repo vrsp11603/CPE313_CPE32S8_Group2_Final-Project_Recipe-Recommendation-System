@@ -36,6 +36,39 @@ This folder contains models and performances brought by training a YOLOv6 model.
    </tr>
 </table>
 
+<table>
+   <tr>
+      <th colspan = "2">
+         Precision, Recall, and F1 Scores
+      </th>
+   </tr>
+
+   <tr>
+      <td>
+         <img src = "https://github.com/vrsp11603/CPE313_CPE32S8_Group2_Final-Project_Recipe-Recommendation-System/blob/main/YOLOv6%20Models/P_curve.png">
+         <p align="center"> Figure 4: Precision Curve </p>
+   </td>
+      
+   <td>
+         <img src = "https://github.com/vrsp11603/CPE313_CPE32S8_Group2_Final-Project_Recipe-Recommendation-System/blob/main/YOLOv6%20Models/R_curve.png">
+         <p align="center"> Figure 5: Recall Curve </p>
+   </td>
+   </tr>
+
+   <tr>
+      <td>
+         <img src = "https://github.com/vrsp11603/CPE313_CPE32S8_Group2_Final-Project_Recipe-Recommendation-System/blob/main/YOLOv6%20Models/PR_curve.png">
+         <p align="center"> Figure 6: Precision-Recall Curve </p>
+   </td>
+      
+   <td>
+         <img src = "https://github.com/vrsp11603/CPE313_CPE32S8_Group2_Final-Project_Recipe-Recommendation-System/blob/main/YOLOv6%20Models/F1_curve.png">
+         <p align="center"> Figure 7: F1 Curve </p>
+   </td>
+   </tr>
+   
+</table>
+
 
 4. Testing Result
 
