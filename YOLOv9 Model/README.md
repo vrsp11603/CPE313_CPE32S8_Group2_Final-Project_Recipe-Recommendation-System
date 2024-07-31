@@ -119,7 +119,3 @@ This folder contains models and performances brought by training a YOLOv9 model.
 
 <br></br>
 
-## References
-
-[^1]:https://docs.ultralytics.com/models/yolov9/
-
