@@ -20,5 +20,3 @@ This file performs the calculation of ingredient consumption which contribute on
 6. <b>recommendation_process.py</b>
 This performs the recommendation process by filtering recipes with no ingredients to be used, checking of ingredient availability, and updating the inventory.
 
-## Architecture
-
