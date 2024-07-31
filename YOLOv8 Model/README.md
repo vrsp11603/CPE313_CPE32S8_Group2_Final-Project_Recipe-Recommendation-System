@@ -23,6 +23,7 @@ This folder contains models and performances brought by training a YOLOv8 model.
    
   <tr>
     <td>
+       
 | Metric                  | Value    |
 |-------------------------|----------|
 | `train/box_loss`        | 0.24595  |
