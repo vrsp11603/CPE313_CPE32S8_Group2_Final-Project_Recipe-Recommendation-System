@@ -39,9 +39,9 @@ This folder contains models and performances brought by training a YOLOv6 model.
 | `val/seg_loss`          | 1.2007   |
 | `val/cls_loss`          | 0.84366  |
 | `val/dfl_loss`          | 1.132    |
-| `lr/pg0`                | 8.95e-06 |
-| `lr/pg1`                | 8.95e-06 |
-| `lr/pg2`                | 8.95e-06 |
+| `lr/pg0`                | 8.95E-06 |
+| `lr/pg1`                | 8.95E-06 |
+| `lr/pg2`                | 8.95E-06 |
 
    </td>
    <td>
