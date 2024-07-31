@@ -4,8 +4,7 @@ This folder contains models and performances brought by training a YOLOv6 model.
 
 ## Overview
 1. Introduction
-<p align="justify"> YOLOv8 
-   Dataset was trained under 261 layers of neural networks consisting 11,798,223 parameters.</p>
+<p align="justify"> YOLOv8 is built on cutting-edge advancements in deep learning and computer vision, offering unparalleled performance in terms of speed and accuracy. Its streamlined design makes it suitable for various applications and easily adaptable to different hardware platforms, from edge devices to cloud APIs. Under this model, the dataset was trained under 261 layers of neural networks consisting 11,798,223 parameters.</p>
 
 2. Metrics Performance
 <table>
@@ -48,7 +47,7 @@ This folder contains models and performances brought by training a YOLOv6 model.
 
 ### Analysis
 
-The graphs indicate that the object detection model shows significant improvement in performance over time. Both box and classification losses for training and validation steadily decrease, indicating enhanced accuracy in predicting bounding boxes and classifications. The steady decrease in losses reflects improved model training and generalization, leading to better performance metrics across both training and validation datasets.
+The metrics graph for YOLOv8 shows a consistent decrease in both training and validation losses, indicating effective learning. Precision and recall metrics steadily improve, approaching values near 0.8, demonstrating the model's increasing accuracy. The mAP metrics also stabilize at high values, reflecting strong performance in object detection and segmentation tasks which is a reasonable result but not good enough.
 
    </td>
   </tr>
@@ -77,7 +76,7 @@ The graphs indicate that the object detection model shows significant improvemen
    <tr>
       <td colspan = "2">
          <p align = 'justify'>
-   The confusion matrix indicates perfect accuracy in detecting bitter gourd and eggplant, and high accuracy for cabbage and cauliflower. However, there are significant misclassifications for chicken, garlic, and especially ginger. Misclassifications frequently occur between similar-looking ingredients, such as pork with beef and papaya, and ginger with garlic.
+   The confusion matrix for YOLOv8 shows varied performance across different categories. Bitter-gourd, Cabbage, Cauliflower, Eggplant, and Sayote achieve perfect classification accuracy. However, some categories like Bottle-Gourd and Carrots have lower accuracies of 70%. Notable misclassifications include Beef being confused with Pork and Milkfish, and Chicken with Cauliflower. Background images also show significant confusion with various categories such as Tomato and Tilapia. 
          </p>
       </td>
    </tr>
