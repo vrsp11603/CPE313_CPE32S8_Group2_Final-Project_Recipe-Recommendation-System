@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 22
+names: ['Beef', 'BitterGourd', 'BottleGourd', 'Broccoli', 'Cabbage', 'Carrots', 'Cauliflower', 'Chicken', 'Egg', 'Eggplant', 'Galunggong', 'Garlic', 'Ginger', 'Milkfish', 'Onion', 'Papaya', 'Pork', 'Potato', 'Pumpkin', 'Sayote', 'Tilapia', 'Tomato']
+
+roboflow:
+  workspace: vhanrandolppena
+  project: recipe-recommendation-system-2-qiz9p
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/vhanrandolppena/recipe-recommendation-system-2-qiz9p/dataset/1
