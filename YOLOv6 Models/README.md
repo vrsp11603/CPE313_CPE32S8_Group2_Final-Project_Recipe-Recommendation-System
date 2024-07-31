@@ -4,7 +4,7 @@ This folder contains models and performances brought by training a YOLOv6 model.
 
 ## Overview
 1. Introduction
-<p align="justify"> YOLOv6 is an object detection model that offers remarkable balance between speed and accuracy, making it a popular choice for real-time applications. This model introduces several notable enhancements on its architecture and training scheme, including the implementation of a Bi-directional Concatenation (BiC) module, an anchor-aided training (AAT) strategy, and an improved backbone and neck design for state-of-the-art accuracy on the COCO dataset [^1]. It was trained under 142 layers of neural networks consisting 4,235,823 parameters.</p>
+<p align="justify"> YOLOv6 is an object detection model that offers remarkable balance between speed and accuracy, making it a popular choice for real-time applications. This model introduces several notable enhancements on its architecture and training scheme, including the implementation of a Bi-directional Concatenation (BiC) module, an anchor-aided training (AAT) strategy, and an improved backbone and neck design for state-of-the-art accuracy on the COCO dataset[^1]. It was trained under 142 layers of neural networks consisting 4,235,823 parameters.</p>
 
 2. Metrics Performance
 <table>
@@ -17,38 +17,35 @@ This folder contains models and performances brought by training a YOLOv6 model.
    
    <tr><td colspan = 10></td></tr>
    
-   <tr>
-         <th>Train Box Loss</th>
-         <th>Train Class Loss</th>
-         <th>Train DFL Loss</th>
-         <th>Precision (B)</th>
-         <th>Recall (B)</th>
-         <th>mAP50 (B)</th>
-         <th>mAP50-95 (B)</th>
-         <th>Validation Box Loss</th>
-         <th>Validation Class Loss</th>
-         <th>Validation DFL Loss</th>
-   </tr>
-   <tr>
-                <td>0.36346</td>
-                <td>0.59692</td>
-                <td>1.0571</td>
-                <td>0.823</td>
-                <td>0.76092</td>
-                <td>0.81639</td>
-                <td>0.71952</td>
-                <td>0.54164</td>
-                <td>0.84549</td>
-                <td>1.2003</td>
-      </tr>
-      <tr><td colspan = 10></td></tr>
-      <tr>
-         <td colspan = 10>
-              <p align = 'justify'>
+  <tr>
+    <td>
+
+| Metric                  | Value    |
+|-------------------------|----------|
+| `train/box_loss`        | 0.36346  |
+| `train/cls_loss`        | 0.59692  |
+| `train/dfl_loss`        | 1.0571   |
+| `metrics/precision(B)`  | 0.823    |
+| `metrics/recall(B)`     | 0.76092  |
+| `metrics/mAP50(B)`      | 0.81639  |
+| `metrics/mAP50-95(B)`   | 0.71952  |
+| `val/box_loss`          | 0.54164  |
+| `val/cls_loss`          | 0.84549  |
+| `val/dfl_loss`          | 1.2003   |
+| `lr/pg0`                | 7.96E-06 |
+| `lr/pg1`                | 7.96E-06 |
+| `lr/pg2`                | 7.96E-06 |
+
+   </td>
+   <td>
+
+### Analysis
+<p align = 'justify'>
         The graphs indicate that the object detection model shows significant improvement in performance over time. Both box and classification losses for training and validation steadily decrease, indicating enhanced accuracy in predicting bounding boxes and classifying objects. Precision and recall metrics stabilize above 0.8, reflecting high accuracy and the model's capability to identify true objects with low false positive and negative rates. The mean average precision (mAP) metrics, particularly mAP@50 and mAP@50-95, demonstrate strong and robust detection performance. 
-              </p>
-         </td>
-      </tr>
+</p>
+   </td>
+  </tr>
+
 </table>
 
 <br></br>
