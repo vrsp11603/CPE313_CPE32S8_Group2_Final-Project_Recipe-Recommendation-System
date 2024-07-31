@@ -14,6 +14,33 @@ This folder contains models and performances brought by training a YOLOv6 model.
          <p align="center"> Figure 1: YOLOv6 Results </p>
       </td>
    </tr>
+
+   <tr>
+      <tr>
+         <th>Train Box Loss</th>
+         <th>Train Class Loss</th>
+         <th>Train DFL Loss</th>
+         <th>Precision (B)</th>
+         <th>Recall (B)</th>
+         <th>mAP50 (B)</th>
+         <th>mAP50-95 (B)</th>
+         <th>Validation Box Loss</th>
+         <th>Validation Class Loss</th>
+         <th>Validation DFL Loss</th>
+      </tr>
+      <tr>
+                <td>0.36346</td>
+                <td>0.59692</td>
+                <td>1.0571</td>
+                <td>0.823</td>
+                <td>0.76092</td>
+                <td>0.81639</td>
+                <td>0.71952</td>
+                <td>0.54164</td>
+                <td>0.84549</td>
+                <td>1.2003</td>
+            </tr>
+   </tr>
 </table>
 
 <div class="row">
