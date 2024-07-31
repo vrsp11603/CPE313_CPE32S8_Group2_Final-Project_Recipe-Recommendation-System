@@ -12,7 +12,7 @@ YOLOv6 is an object detection model that offers remarkable balance between speed
 
 [image]: https://github.com/vrsp11603/CPE313_CPE32S8_Group2_Final-Project_Recipe-Recommendation-System/blob/main/YOLOv6%20Models/results.png "YOLOv6 Model Results"
 
-:"Figure 1: YOLOv6 Results":
+<p align="center"> "Figure 1: YOLOv6 Results": </p>
 
 4. Testing Result
 
