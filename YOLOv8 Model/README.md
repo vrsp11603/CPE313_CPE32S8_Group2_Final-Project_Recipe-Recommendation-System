@@ -50,7 +50,7 @@ This folder contains models and performances brought by training a YOLOv8 model.
       
 ### Analysis
    <p align = 'justify'>
-         The metrics graph for YOLOv8 shows a consistent decrease in both training and validation losses, indicating effective learning. Precision and recall metrics steadily improve, approaching values near 0.8, demonstrating the model's increasing accuracy. The mAP metrics also stabilize at high values, reflecting strong performance in object detection and segmentation tasks which is a reasonable result but not good enough.
+   The metrics graph for YOLOv8 shows a consistent decrease in both training and validation losses, indicating effective learning. Precision and recall metrics steadily improve, approaching values near 0.8, demonstrating the model's increasing accuracy. The mAP metrics also stabilize at high values, reflecting strong performance in object detection and segmentation tasks which is a reasonable result but not good enough.
    </p>
    </td>
   </tr>
@@ -78,11 +78,13 @@ This folder contains models and performances brought by training a YOLOv8 model.
    </tr>
    <tr>
       <td colspan = "2">
-         <b>Analysis</b>
-         <p align = 'justify'>
-            The confusion matrix for YOLOv8 shows varied performance across different categories. Bitter-gourd, Cabbage, Cauliflower, Eggplant, and Sayote achieve perfect classification accuracy. However, some categories like Bottle-Gourd and Carrots have lower accuracies of 70%. Notable misclassifications include Beef being confused with Pork and Milkfish, and Chicken with Cauliflower. Background images also show significant confusion with various categories such as Tomato and Tilapia. 
-         </p>
-      </td>
+
+### Analysis
+   <p align = 'justify'>
+   The confusion matrix for YOLOv8 shows varied performance across different categories. Bitter-gourd, Cabbage, Cauliflower, Eggplant, and Sayote achieve perfect classification accuracy. However, some categories like Bottle-Gourd and Carrots have lower accuracies of 70%. Notable misclassifications include Beef being confused with Pork and Milkfish, and Chicken with Cauliflower. Background images also show significant confusion with various categories such as Tomato and Tilapia. 
+   </p>
+   
+   </td>
    </tr>
 </table>
 
