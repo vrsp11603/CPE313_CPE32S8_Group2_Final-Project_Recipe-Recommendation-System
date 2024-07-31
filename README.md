@@ -13,11 +13,16 @@ According to the World Wildlife Fund–Philippines (2020), it is estimated that 
 - **Recipe Recommendation:** Analysis of ingredient inventory depicting available ingredients and suggests appropriate recipes considering the availability of ingredients and user-inputted serving size for food inventory optimization.
 
 ## Technologies
+- Python
+- Ultralytics (YOLO) for object detection
+- Web Development Frameworks (Streamlit)
 
 ## Table of Contents
 
 ## Contributors
-
+- Figueroa, Jan Ed Paulo A. | [qjepafigueroa@tip.edu.ph](qjepafigueroa@tip.edu.ph)
+- Peña, Vhan Randolp S. | [qvrspena@tip.edu.ph](qvrspena@tip.edu.ph)
+  
 ## References
 [^1]: E. Woolley, Z. Luo, A. Jellil, and A. Simeone, “A Data Driven Approach to Reducing Household Food Waste,” Sustainable Production and Consumption, Nov. 2021, doi: https://doi.org/10.1016/j.spc.2021.11.004.
 [^2]: I. Angeles-Agdeppa, M. B. Toledo, and J. A. T. Zamora, “Does plate waste matter?: A two-stage cluster survey to assess the household plate waste in the Philippines,” BMC Public Health, vol. 23, no. 1, Jan. 2023, doi: https://doi.org/10.1186/s12889-022-14894-z.
