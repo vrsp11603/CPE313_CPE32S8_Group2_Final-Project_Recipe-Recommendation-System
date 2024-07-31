@@ -25,19 +25,13 @@ This folder contains models and performances brought by training a YOLOv6 model.
 
    <tr>
       <td>
-         ![alt text][image]
-
-   [image]: https://github.com/vrsp11603/CPE313_CPE32S8_Group2_Final-Project_Recipe-Recommendation-System/blob/main/YOLOv6%20Models/confusion_matrix.png "YOLOv6 Confusion Matrix"
-         
-   <p align="center"> Figure 2: YOLOv6 Confusion Matrix </p>
+         ![alt text](https://github.com/vrsp11603/CPE313_CPE32S8_Group2_Final-Project_Recipe-Recommendation-System/blob/main/YOLOv6%20Models/confusion_matrix.png "YOLOv6 Confusion Matrix")
+         <p align="center"> Figure 2: YOLOv6 Confusion Matrix </p>
    </td>
       
    <td>
-         ![alt text][image]
-
-   [image]: https://github.com/vrsp11603/CPE313_CPE32S8_Group2_Final-Project_Recipe-Recommendation-System/blob/main/YOLOv6%20Models/confusion_matrix_normalized.png "YOLOv6 Normalized Confusion Matrix"
-         
-   <p align="center"> Figure 3: YOLOv6 Normalized Confusion Matrix </p>
+         ![alt text](https://github.com/vrsp11603/CPE313_CPE32S8_Group2_Final-Project_Recipe-Recommendation-System/blob/main/YOLOv6%20Models/confusion_matrix_normalized.png "YOLOv6 Normalized Confusion Matrix")
+         <p align="center"> Figure 3: YOLOv6 Normalized Confusion Matrix </p>
    </td>
    </tr>
 </table>
