@@ -1,6 +1,7 @@
 # YOLOv6 Models
 
 This folder contains models and performances brought by training a YOLOv6 model.
+
 **Model Link:** https://github.com/vrsp11603/CPE313_CPE32S8_Group2_Final-Project_Recipe-Recommendation-System/blob/main/YOLOv6%20Models/best.pt
 
 ## Overview
