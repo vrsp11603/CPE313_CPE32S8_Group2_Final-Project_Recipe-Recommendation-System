@@ -99,7 +99,11 @@ For object detection, dataset are composed of images of raw ingredients of a com
   </tr>
 </table>
 
-- **Dataset Size:**
+- **Dataset Size:** 9,634 images
+
+- **Dataset Pre-processing:**
+- - 1. 
+
 
 ## Recipe Recommendation
 
