@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/7d56345a-d8af-4249-a74e-6744897f37f1)# Datasets
+Datasets
 
 ## Overview
 This folder contains the details on the datasets used for training object detection model and recipe recommendation. 
@@ -151,8 +151,11 @@ The dataset used for the recipe recommendation system is outsourced from GitHub 
   - **niacin_equivalents_mg:** The amount of niacin equivalents in the entire yield, measured in milligrams.
   - **vitamin_b:** The types and amounts of vitamin B in the entire yield.
 
+- **Dataset Size:** 35,516 recipes
 - **Dataset Preprocessing**
-
+  - Conversion of fractions in unicode format to decimal form for uniform presentation, data integrity, and normalization of data formats.
+  - Modification of quantities based on user desired serving size
+  - Extraction of crucial information from ingredients column to the another column which allows easier retrieval of core data for the recommendation system.
 
 # References
 [^1]: Shaansubbaiah, “Shaansubbaiah/allrecipes-scraper: 🥗 scrapy spider to scrape recipe and nutritional data from allrecipes.com,” GitHub, https://github.com/shaansubbaiah/allrecipes-scraper/tree/main
